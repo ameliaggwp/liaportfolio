@@ -1,15 +1,11 @@
 import React from "react";
-import About from "./About";
-import Gallery from "./gallery";
 
 const Navbar = () => {
   return (
     
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a to={Gallery} className="navbar-brand">
-            La La Lia
-          </a>
+          <div>La La Lia</div>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,6 +19,7 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
+              {/*
               <li className="nav-item">
                 <a className="nav-link" ariaCurrent="page" to={About}>
                   About
@@ -38,16 +35,8 @@ const Navbar = () => {
                   Order
                 </a>
               </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  ariaDisabled="true"
-                >
-                  Disabled
-                </a>
-              </li>
+              
+              <*/}
             </ul>
           </div>
         </div>

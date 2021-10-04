@@ -1,4 +1,5 @@
 import React from "react";
+import PicCard from "./PicCard"
 import corgi from "./assets/corgibutt.jpg";
 import capySolo from "./assets/capysolo.jpg";
 import smolBois from "./assets/smolbois.jpg";
@@ -8,13 +9,13 @@ const Gallery = () => {
     <div className="container">
       <div className="row">
         <div className="col">
-          <img src={corgi} alt="corgi but shaped plate" width="300px" height="auto"/>
+          <PicCard picture={corgi} altDesc="corgi but shaped plate"/>
         </div>
         <div className="col">
-          <img src={capySolo} alt="Capybara ring dish" width="300px" height="auto" />
+          <PicCard picture={capySolo} altDesc="Capybara ring dish"  />
         </div>
         <div className="col">
-          <img src={smolBois} alt="small animal planters" width="300px" height="auto" />
+          <PicCard picture={smolBois} altDesc="small animal planters" />
         </div>
       </div>
     </div>
